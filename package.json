@@ -1,0 +1,16 @@
+{
+  "name": "gravl-static-preview",
+  "private": true,
+  "scripts": {
+    "dev": "node qa/server.cjs",
+    "lint": "node qa/check.cjs",
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "audit:metrics": "node qa/metrics.cjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1",
+    "lighthouse": "^13.6.0"
+  }
+}

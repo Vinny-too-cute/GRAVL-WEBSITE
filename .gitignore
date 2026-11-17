@@ -1,0 +1,21 @@
+node_modules/
+test-results/
+playwright-report/
+
+# Local tooling, generated QA output, and operating-system metadata
+tmp/
+.claude/
+.codex/
+__MACOSX/
+.DS_Store
+Thumbs.db
+reports/*
+!reports/AUDIT.md
+*.log
+
+# Local secrets (keep documented examples versioned)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
